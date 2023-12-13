@@ -1,4 +1,4 @@
 class CategoryRecipe < ApplicationRecord
-  has_many :recipes_id
+  has_many :recipes
   belongs_to :user
 end
